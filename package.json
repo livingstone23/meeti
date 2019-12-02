@@ -1,0 +1,20 @@
+{
+  "name": "meeti",
+  "version": "1.0.0",
+  "description": "Proyecto Meeti con Node, con Node, PostgreSQL y EJS",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./index.js"
+  },
+  "author": "Livingstone Cano",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.1"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "ejs": "^3.0.1",
+    "express": "^4.17.1",
+    "express-ejs-layouts": "^2.5.0"
+  }
+}
