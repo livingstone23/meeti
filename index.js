@@ -13,7 +13,9 @@ const router =  require('./routes');
 
 //Configuracion y Modelos BD 
 const db = require('./config/bd');
-    require('./models/usuarios');
+    require('./models/Usuarios');
+    require('./models/categorias');
+    require('./models/grupos');
     db.sync().then(() => console.log('DB Conectado')).catch((error) => console.log(error)); 
 
 
